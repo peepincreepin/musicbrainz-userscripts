@@ -1,0 +1,1 @@
+With help from https://github.com/murdos/musicbrainz-userscripts/
