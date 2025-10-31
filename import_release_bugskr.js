@@ -4,8 +4,8 @@
 // @description  Add button to Bugs.co.kr album pages to import releases to MusicBrainz
 // @namespace    http://tampermonkey.net/
 // @author       peepincreepin
-// @downloadURL  https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/import_bugs-kr_release.js
-// @updateURL    https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/import_bugs-kr_release.js
+// @downloadURL  https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/import_release_bugskr.js
+// @updateURL    https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/import_release_bugskr.js
 // @match        http*://music.bugs.co.kr/album/*
 // @grant        GM_addStyle
 
