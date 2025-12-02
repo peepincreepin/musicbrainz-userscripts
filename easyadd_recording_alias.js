@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         MusicBrainz: Easy-Add Recording Alias
 // @namespace    http://tampermonkey.net/
-// @version      2025.12.02.2
+// @version      2025.12.02.3
 // @description  Inserts "Add Alias" buttons in Recording pages and auto-fills the Add Alias form.
 // @author       peepincreepin
+// @downloadURL  https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/easyadd_recording_alias.js
+// @updateURL    https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/easyadd_recording_alias.js
 // @match        *://*.musicbrainz.org/recording/*
 // @grant        GM_setClipboard
 // @run-at       document-end
