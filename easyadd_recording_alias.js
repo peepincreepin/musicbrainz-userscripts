@@ -7,6 +7,7 @@
 // @downloadURL  https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/easyadd_recording_alias.js
 // @updateURL    https://raw.githubusercontent.com/peepincreepin/musicbrainz-userscripts/master/easyadd_recording_alias.js
 // @match        *://*.musicbrainz.org/recording/*
+// @exclude      *://*.musicbrainz.org/recording/*/aliases
 // @grant        GM_setClipboard
 // @run-at       document-end
 // ==/UserScript==
@@ -144,7 +145,7 @@
 
                         // 3. Visual feedback so you know it worked
                         inputField.style.backgroundColor = "#e6fffa";
-                        inputField.style.border = "2px solid #38b2ac";
+                        inputField.style.border = "1px solid #38b2ac";
                         inputField.focus();
                     }
                 }, OVERWRITE_DELAY_MS);
